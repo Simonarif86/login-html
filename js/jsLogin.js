@@ -18,6 +18,8 @@
     if (passDefault === password) {
         // Show an alert with form data if password is correct
         alert('Email: ' + email + '\nPassword: ' + 'Password Benar' + '\nMessage: ' + message + '\nSelected Radio: ' + selectedRadio);
+
+        document.location.href = "home.html";
     } else {
         // Show an error alert if password is incorrect
         alert('Email: ' + email + '\nPassword: ' + 'Password Salah' + '\nMessage: ' + message + '\nSelected Radio: ' + selectedRadio);
